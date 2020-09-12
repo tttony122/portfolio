@@ -12,7 +12,7 @@ section#details,section#skill  {display:none; }
 
 section#profile   {}
 section#profile ul.Recent  {width:100%; padding:0  0 0px 0!important ; display:block; margin-top:5px;  margin-left:-8px;}
-section#profile ul.Recent li {width:45%; float:left; padding:8px;}
+section#profile ul.Recent li {width:42%; float:left; padding:8px;}
 
 section#skill ul li{width:auto; float:left; padding:5px; margin:10px 0 0 10px;}
 
