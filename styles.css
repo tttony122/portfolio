@@ -21,27 +21,20 @@ header #img img{width:230px; position:relative; left:-40px; top:-30px;}
 header ul {margin:8px 0 0 0;}
 
 /*article*/
-article{position:relative;width:100%; height:auto; min-height:570px;}
+article{position:relative;width:100%; height:auto; }
 p{padding:10px 0 10px;}
 
 /*section*/
-section#profile {width:75%; height:570px; position:absolute; top:0; left:286px; border-left:1px dotted #e6e6e6; padding:0 0 0  50px;}
+section{clear:both;}
 section#profile ul {list-style-type:disc; list-style-position:inside; }
-section#profile ul.Recent li{width:150px; float:left; text-align:center; list-style-type:none!important;  margin:10px 0 0 0px; border-right: 1px solid #e6e6e6; padding:0 0px 0 0; }
-section#profile ul {list-style-type:disc; list-style-position:inside; }
-section#profile ul.Recent li:first-child {margin-left:0!important;}
-section#profile ul.Recent li:last-child {border:none!important;}
-
-
-section#details,section#skill {width:20%; max-width:199px; position:relative; left:52px; top:0px; }
-section#skill ul li {float:left; background-color:#0ABAB5; color:#fff; margin:10px 0 0 10px; padding:0 9px 0 9px; position:relative; top:--4px; left:-10px; font-weight:bold;}
-section#skill ul li {border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;}
-
+section#profile ul.Recent li{list-style-type:none!important; }
+section#skill ul li {background-color:#0ABAB5; color:#fff; font-weight:bold; border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;}
 
 /*footer*/
 footer {width:100%; text-align:center; position:relative; clear:both; padding:0 0 10px; border-top:1px dotted #0ABAB5;}
 
-
 .bold {font-weight:bold;}
+.tiffanyBlue {color:#0ABAB5; font-size:19px!important;}
+
 
 
