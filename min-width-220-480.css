@@ -1,3 +1,19 @@
-@media (min-width:220px) and (max-width:480px) {
-  
+@media (min-width:200px) and (max-width:1371px) {
+
+nav {width:100%; display:block}
+nav ul li {width:49.9%; float:left; border-right:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; text-align:center; background-color:#fff; padding:0 0 5px;}
+nav ul li:last-child {border-right:none!important;}
+nav ul li i {font-size:22px!important;  position:relative; top:5px;}
+
+article { }
+
+section{clear:both; padding:0 30px 0px 30px; padding-bottom:25px;   }
+section#details,section#skill  {display:none; }
+
+section#profile   {}
+section#profile ul.Recent  {width:100%; padding:0  0 0px 0!important ; display:block; margin-top:5px;  margin-left:-8px;}
+section#profile ul.Recent li {width:40%; float:left; padding:8px;}
+
+section#skill ul li{width:auto; float:left; padding:5px; margin:10px 0 0 10px;}
+
 }
