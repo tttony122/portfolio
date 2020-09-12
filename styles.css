@@ -27,7 +27,7 @@ p{padding:10px 0 10px;}
 /*section*/
 section{clear:both;}
 section#profile ul {list-style-type:disc; list-style-position:outside; position:relative; left:20px;}
-section#profile ul.Recent li{list-style-type:none!important; padding:0 15px 0 0;}
+section#profile ul.Recent li{list-style-type:none!important; }
 section#skill ul li {background-color:#0ABAB5; color:#fff; font-weight:bold; border-radius: 5px 5px 5px 5px;-moz-border-radius: 5px 5px 5px 5px;-webkit-border-radius: 5px 5px 5px 5px;}
 
 /*footer*/
