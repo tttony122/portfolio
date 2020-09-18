@@ -1,19 +1,29 @@
 @media (min-width:200px) and (max-width:1371px) {
+	
+	
+header #mobilemainNav {display:block!important;}
+header #mobilemainNav {position:absolute; top:11px; left:4%; z-index:9999;}
+header #mainN{width:100%!important;  height:100%!important;    background-color: rgba(255, 255, 255, 0.9);  position:absolute;   top:0px; left:0!important; right:0!important; margin:0!important; z-index:9998; display:none;} 
+
+header #mainNav.mobile  {width:100%!important;  padding:100px 0 0px 0;  z-index:9000; }
+header #mainNav li:first-child  i{position:static!important; left:0!important; top:0px; margin:0 0 0 -3px}
+header ul.mobile  {width:45%; margin:0px 0 0 0px;  z-index:9999;}
+header ul.mobile li {position:relative; top:0px; height:auto; margin:0; padding:10px 30px 5px 10px; font-size:25px;   text-align:left;  border-bottom:1px dotted #0ABAB5; }
+header ul.mobile li:hover {color:#0ABAB5;} 
 
 nav {width:100%; display:block}
-nav ul li {width:48.9%; float:left; border-right:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; text-align:center; background-color:#fff; padding:0 0 5px;}
+nav ul li {width:49.9%; float:left; border-right:1px solid #e6e6e6; border-bottom:1px solid #e6e6e6; text-align:center; background-color:#fff; padding:0 0 5px;}
 nav ul li:last-child {border-right:none!important;}
 nav ul li i {font-size:22px!important;  position:relative; top:5px;}
 
 article { }
 
 section{clear:both; padding:0 30px 0px 30px; padding-bottom:25px;   }
-section#details,section#skill  {display:none; }
+section#details,section#skill  {}
 
 section#profile   {}
 section#profile ul.Recent  {width:100%; padding:0  0 0px 0!important ; display:block; margin-top:5px;  margin-left:-8px;}
-section#profile ul.Recent li {width:42%; float:left; padding:8px;}
-
+section#profile ul.Recent li {width:40%; float:left; padding:8px;}
 section#skill ul li{width:auto; float:left; padding:5px; margin:10px 0 0 10px;}
 
 }
