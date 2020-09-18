@@ -7,7 +7,6 @@
 html {overflow-y:scroll; -webkit-text-size-adjust:100%; }
 body {font-size:15px; font-family:  "Times New Roman", Times, serif!important;  padding:0!important;  margin:0!important; -webkit-transition: all .15s linear; -moz-transition: all .15s linear; -o-transition: all .15s linear;  line-height:22px; }
 div.container {width:100%!important;  padding:0!important; margin:0!important;}
-section{}
 
 h1 {font-size:1.25em; font-weight:bold; text-transform:uppercase; padding:30px 0 2px; }
 h2 { font-weight:bold; }
@@ -35,6 +34,7 @@ section#skill ul li {background-color:#0ABAB5; color:#fff; border-radius: 5px 5p
 /*footer*/
 footer {width:100%;position:relative; clear:both; padding:0 0 10px; border-top:1px dotted #0ABAB5;}
 footer p{ text-align:center!important; }
+footer p.noted{ color:#e6e6e6; font-size:14px;}
 
 
 .bold {font-weight:bold;}
