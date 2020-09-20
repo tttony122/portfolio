@@ -8,8 +8,8 @@ header #mainN{display:none;}
 article{min-height:630px;}
 
 section#profile {width:951px; height:570px; position:absolute; top:0; left:50%;  margin:0 0 0 -370px; border-left:1px dotted #e6e6e6; padding:0 0 0  50px; }
-section#profile ul.Recent li{width:150px; float:left; text-align:center; margin:10px 0 0 0px; border-right: 1px solid #e6e6e6; padding:0 0px 0 0; border-left :1px solid #e6e6e6; }
-section#profile ul.Recent li:first-child {margin-left:0!important; border-left: 1px solid #e6e6e6; } 
+section#profile ul.recent li{width:150px; float:left; text-align:center; margin:10px 0 0 0px; border-right: 1px solid #e6e6e6; padding:0 0px 0 0; border-left :1px solid #e6e6e6; }
+section#profile ul.recent li:first-child {margin-left:0!important; border-left: 1px solid #e6e6e6; } 
 section#details,section#skill {width:220px; position:relative; top:0; left:50%;  margin:0 0 0 -610px;}
 section#skill ul li {float:left; margin:10px 0 0 10px; padding:0 9px 0 9px; position:relative; top:-4px; left:-10px; }
 

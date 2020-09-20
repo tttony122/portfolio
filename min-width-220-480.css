@@ -12,9 +12,8 @@ header ul.mobile li {position:relative; top:0px; height:auto; margin:0; padding:
 header ul.mobile li:hover {color:#0ABAB5;} 
 
 section{clear:both; padding:0 30px 0px 30px;  }
-section#profile ul.Recent  {width:100%; padding:0  0 0px 0!important ; display:block; margin-top:5px;  margin-left:-8px;}
-section#profile ul.Recent li {width:40%; float:left; padding:8px;}
-section#skill ul li{width:auto; float:left; padding:5px; margin:10px 0 0 10px;}
+
+section#skill ul li,section#profile ul.recent li{width:auto; float:left; padding:5px; margin:10px 0 0 10px;}
 section#details{padding-bottom:30px!important;}
 
 footer  {height:250px;}
